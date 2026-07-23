@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Html Form Elements and Attributes</h1>
+
+    <form>
+        <fieldset>
+            <legend>Register Form</legend>
+
+            <label>FirstName : </label>
+            <input type="text" placeholder="enter firstname" autofocus> <br>
+
+            <label>LastName : </label>
+            <input type="text" placeholder="enter lastname" value="" autocomplete="on"> <br>
+
+            <label>Age : </label>
+            <input type="number" placeholder="enter your age" disabled> <br>
+            
+            <label>Date of Birth : </label>
+            <input type="date" hidden> <br>
+            
+            <label>Phone : </label>
+            <input type="tel" placeholder="enter mobile number" required> <br>
+            
+            <label>Email : </label>
+            <input type="email" placeholder="enter email address"> <br>
+
+            <label>Gender : </label>
+
+            <label><input type="radio" name="gender">Male</label>
+            <label><input type="radio" name="gender">FeMale</label>
+            <label><input type="radio" name="gender">Prefer Not to Say</label> <br>
+
+            <label>Choose Your Browser : </label>
+            <select>
+                <option value="">~ Choose One ~</option>
+                <option value="">Edge</option>
+                <option value="">Chrome</option>
+                <option value="">Safari</option>
+                <option value="">Brave</option>
+                <option value="">Opera</option>
+            </select>
+            <br>
+
+            <label>Select Your Favourite Programming Language</label>
+            
+            <label><input type="checkbox">C</label>
+            <label><input type="checkbox">C++</label>
+            <label><input type="checkbox">C#</label>
+            <label><input type="checkbox">Java</label>
+            <label><input type="checkbox">Python</label>
+            <label><input type="checkbox">Rust</label>
+            <label><input type="checkbox">JavaScript</label>
+            <label><input type="checkbox">GoLang</label>
+            <br>
+
+            <label>Upload Your Files : </label>
+            <input type="file"> <br>
+
+
+            <label>Enter Your Permanent Address : </label>
+            <textarea rows="5" cols="20"></textarea>
+            <br>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </fieldset>
+    </form>
+
+</body>
+</html>
